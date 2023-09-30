@@ -178,7 +178,7 @@ Add words to whitelist filter
 
 The MIT License (MIT)
 
-Copyright (c) 2022 Moisés Laris
+Copyright (c) 2023 blackmambaza
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
