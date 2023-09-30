@@ -8,7 +8,7 @@ A javascript filter for bad words.
 
 ## Requirements
 
-As of version 2, requires you either have an environment that understands ES2016 and beyond or a transpiler like Babel.
+Requires you either have an environment that understands ES2016 and beyond or a transpiler like Babel.
 
 
 ## Usage
