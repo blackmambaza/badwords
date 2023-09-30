@@ -1,6 +1,6 @@
-# bad-words-es
+# bad-words
 
-A javascript filter for bad words in Spanish and English.
+A javascript filter for bad words. 
 
 [![Build Status](https://travis-ci.org/web-mech/badwords.svg?branch=master)](https://travis-ci.org/web-mech/badwords)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -12,7 +12,7 @@ As of version 2, requires you either have an environment that understands ES2016
 
 ## Installation
 
-    npm install bad-words-es --save
+    ~~~~npm install bad-words-es --save
 
 ## Usage
 
