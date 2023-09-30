@@ -1,7 +1,7 @@
 {
-  "name": "bad-words-es",
+  "name": "bad-words",
   "version": "1.0.0",
-  "description": "A forked javascript filter for bad words in spanish and english",
+  "description": "A forked javascript filter for bad words",
   "main": "./lib/badwords",
   "directories": {
     "test": "test"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/MoisesLaris/badwords-es.git"
+    "url": "git://github.com/blackmambaza/badwords.git"
   },
   "keywords": [
     "curse",
@@ -32,7 +32,7 @@
     "documentation": "^5.3.3",
     "mocha": "^5.2.0"
   },
-  "author": "Moises Laris",
+  "author": "blackmambaza",
   "license": "MIT",
   "engines": {
     "node": ">=8.0.0"
