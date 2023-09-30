@@ -1,6 +1,6 @@
 {
   "name": "bad-words-multi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A forked javascript filter for bad words catering for international languages",
   "main": "./lib/badwords",
   "directories": {
