@@ -10,14 +10,11 @@ A javascript filter for bad words.
 
 As of version 2, requires you either have an environment that understands ES2016 and beyond or a transpiler like Babel.
 
-## Installation
-
-    ~~npm install bad-words-es --save~~
 
 ## Usage
 
 ```js
-var Filter = require('bad-words-es'),
+var Filter = require('bad-words'),
     filter = new Filter();
 
 console.log(filter.clean("Don't be an ash0le")); //Don't be an ******
@@ -27,7 +24,7 @@ console.log(filter.clean("No seas pendej0")); //No seas pendej0
 ### Placeholder Overrides
 
 ```js
-var Filter = require('bad-words-es');
+var Filter = require('bad-words');
 var customFilter = new Filter({ placeHolder: 'x'});
 
 customFilter.clean("Don't be an ash0le"); //Don't be an xxxxxx
@@ -44,7 +41,7 @@ var filter = new Filter({ replaceRegex:  /[A-Za-z0-9가-힣_]/g });
 
 ### Select language
 ```js
-var Filter = require('bad-words-es');
+var Filter = require('bad-words');
 
 //It will only filter bad words in Spanish.
 var filter = new Filter({languages: ['es']});
